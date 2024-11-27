@@ -1,0 +1,25 @@
+{
+  "name": "auth-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@oslojs/crypto": "^1.0.1",
+    "@oslojs/encoding": "^1.1.0",
+    "better-sqlite3": "^11.5.0",
+    "dotenv": "^16.4.5",
+    "drizzle-kit": "^0.28.1",
+    "drizzle-orm": "^0.36.4",
+    "express": "^5.0.1",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
